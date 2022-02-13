@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    height: 914px;
+    width: 412px;
+}
+
+.content {
+    position: relative;
+    top: 200px;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    background-color: #f88379;
+    overflow: hidden;
+}
+
+.box{
+    background-color: #fbc2bd;
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    z-index: 1;  
+}
+
+#bot{
+    top:250px;
+    border-top: 1px solid black;
+}
+
+#opener{
+    background-image:url("heart.png");
+    background-size: 50px 50px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 225px;
+    left: 175px;
+    z-index: 3;
+    
+}
+
+
+#photo{
+    position: relative;
+    height: 190px;
+    width: 380px;
+    margin: auto;
+    left: 10px;
+    top: 10px;
+    z-index: 0;
+}
+
+.message{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align:justify;
+    font-size: 16px;
+}
+
+#photo2{
+    position: absolute;
+    height: 450px;
+    width: 380px;
+    left: -50px;
+    top: -50px;
+    z-index: 0;
+}
+
